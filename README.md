@@ -220,7 +220,7 @@ y pulsando sobre ella podemos ver su contenido:
 
 ![mLab-](images/mlab-restaurants2.png)
 
-También podemos acceder a la colección de restaurantes abriendo un terminal en nuestro ordenador y estableciendo conexión con la base de datos en mLab:
+También podemos acceder a la colección de restaurantes abriendo un terminal en nuestro ordenador y estableciendo conexión con la base de datos en mLab como hemos visto antes:
 
 ![mLab-](images/mlab-restaurants3.png)
 
