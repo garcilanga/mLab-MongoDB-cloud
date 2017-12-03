@@ -19,7 +19,7 @@ En este tutorial vamos a ver cómo:
 
 ## 1. Crear una nueva cuenta de usuario en mLab
 
-Para crear una nueva cuenta de usuario en mLab hay que comenzar por acceder a su sitio web:
+Para crear una nueva cuenta de usuario en mLab hay que comenzar por acceder a su sitio web. En un navegadorweb visitamos la url:
 
 ```
 https://mlab.com/
