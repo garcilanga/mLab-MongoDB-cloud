@@ -91,11 +91,11 @@ Con esto terminamos la creación de nuestra nueva base de datos MongoDB en mLab,
 ![mLab-](images/mlab-mydatabaseok.png)
 
 Pulsando sobre el nombre de despliegue de la base de datos recién creada (_ds129156/mydatabase_) se da paso a una nueva pantalla en la que se muestran dos **formas de conexión a la base de datos**, una mediante el **cliente shell de MongoDB** y otra mediante **driver con URI MongoDB**, además del menú que permite gestionar la base de datos desde esta interfaz con las siguientes opciones:
-- Collectrions
-- Users
-- Stats
-- Backups
-- Toools
+- **Collections**: gestión de colecciones e índices.
+- **Users**: gestión de uuarios.
+- **Stats**: estadísticas de uso.
+- **Backups**: copias de seguridad.
+- **Toools**: herramientas de importación y exportación.
 
 ![mLab-](images/mlab-mydatabasepannel.png)
 
