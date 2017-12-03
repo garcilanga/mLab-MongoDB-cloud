@@ -78,7 +78,7 @@ Seleccionamos la Región AWS y pulsamos sobre **CONTINUE**:
 
 ![mLab-](images/mlab-region.png)
 
-Indicamos el nombre de nuestra nueva base de datos ( _mydatabase_) y pulsamos sobre **CONTINUE**:
+Indicamos el nombre de nuestra nueva base de datos (ej.: _mydatabase_) y pulsamos sobre **CONTINUE**:
 
 ![mLab-](images/mlab-mydatabase.png)
 
@@ -113,7 +113,7 @@ To connect using a driver via the standard MongoDB URI (what's this?):
 
 El siguiente paso es, por tanto, crear un usuario con el que poder acceder a la base de datos de forma segura.
 
-Para crear un usuario desde el menú del panel de gestión de mLab seleccionamos **Users** y a continuación hacemos click sobre **database user**. Se abrirá en pantalla un formulario donde introduciremos los datos del usuario (ej.: _myusr_ y _mypwd_) y finalizaremos pulsando **CREATE**.
+Para crear un usuario desde el menú del panel de gestión de mLab seleccionamos **Users** y a continuación hacemos click sobre **Add database user**. Se abrirá en pantalla un formulario donde introduciremos los datos del usuario (ej.: _myusr_ y _mypwd_) y finalizaremos pulsando **CREATE**.
 
 ![mLab-](images/mlab-createuser.png)
 
@@ -162,7 +162,7 @@ La colección creada, que carece aún de estructura y de datos, aparecerá en la
 
 ## 6. Importar/exportar ficheros de datos
 
-En la opción **Tools** del menú del panel de control principal de mLab se incluyen instrucciones que permiten **importar** ficheros de datos en colecciones MongoDB (por consola, mediante un cliente mongo), y **exportar** colecciones de datos MongoDB a ficheros. El formato de estos ficheros puede ser de tipo **JSON**, **CSV** y **Bynary** (_dumps_).
+En la opción **Tools** del menú del panel de gestión principal de mLab se muestran instrucciones que permiten **importar** ficheros de datos en colecciones MongoDB (por consola, mediante un cliente mongo), y **exportar** colecciones de datos MongoDB a ficheros. El formato de estos ficheros puede ser de tipo **JSON**, **CSV** y **Binary** (_dumps_).
 
 ![mLab-](images/mlab-tools.png)
 
@@ -203,7 +203,7 @@ mongodump -h ds129386.mlab.com:29386 -d mydatabase -c <collection> -u <user> -p 
 
 ```
 
-Como ejemplo, abriendo un terminal en nuestro ordenador, con el cliente mongo que tengamos instalado, vamos a importar en la base de datos creada en mLab un fichero en formato JSON con información sobre restaurantes de Nueva York:
+Como ejemplo, abriendo un terminal en nuestro ordenador, con el cliente mongo que tengamos instalado, vamos a importar en la base de datos creada en mLab un fichero en formato JSON con información sobre restaurantes de New York:
 
 ```
 mongoimport -h ds129386.mlab.com:29386 -d mydatabase -c restaurants -u myusr -p mypwd --file ./restaurants-data.json
@@ -212,7 +212,7 @@ La salida por consola es la siguiente:
 
 ![mLab-](images/mlab-restaurants.png)
 
-Desde el panel de gestión de mLab podemos ver la nueva colección de restaurantes:
+Desde el panel de gestión de mLab podemos ver la nueva colección de restaurantes de New York:
 
 ![mLab-](images/mlab-collections2.png)
 
@@ -223,7 +223,6 @@ y pulsando sobre ella podemos ver su contenido:
 También podemos acceder a la colección de restaurantes abriendo un terminal en nuestro ordenador y estableciendo conexión con la base de datos en mLab:
 
 ![mLab-](images/mlab-restaurants3.png)
-
 
 ## 7 Crear índices
 
