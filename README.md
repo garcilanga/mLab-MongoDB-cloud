@@ -15,7 +15,6 @@ En este tutorial vamos a ver cómo:
 - 5 Crear una colección vacía
 - 6 Importar/exportar ficheros de datos
 - 7 Crear índices
-- 8 Operaciones CRUD
 
 ## 1. Crear una nueva cuenta de usuario en mLab
 
@@ -59,7 +58,6 @@ Si es la primera vez que accedemos a mLab, o no hemos creado aún ninguna base d
 - **Private Environments** permite crear una VPC (red virtual privada en la nube), una red privada, dedicada, definida por software, en la que se puede aprovisionar múltiples implementaciones de MongoDB alojadas en mLab. Este entorno privado permite limitar a redes privadas la comunicación entre aplicaciones y bases de datos. Esta opción solo está disponible para planes dedicados en AWS.
 
 ![mLab-](images/mlab-deployments.png)
-
 
 ## 3. Crear una base de datos
 
@@ -209,7 +207,6 @@ Como ejemplo, abriendo un terminal en nuestro ordenador, con el cliente mongo qu
 
 ```
 mongoimport -h ds129386.mlab.com:29386 -d mydatabase -c restaurants -u myusr -p mypwd --file ./restaurants-data.json
-
 ```
 La salida por consola es la siguiente:
 
@@ -230,12 +227,17 @@ También podemos acceder a la colección de restaurantes abriendo un terminal en
 
 ## 7 Crear índices
 
+Para ilustrar la creación de índices sobre colecciones de bases de datos MongoDB creadas en mLab crearemos un índice en la colección **restaurants** que cargamos anteriormente, sobre la propiedad **cuisine** presente en los documentos de dicha colección.
 
+Para ello, en el panel de gestión de mLab, accedemos a la lista de colecciones, seleccionamos la de **restaurants** y pulsamos sobre la opción **Indexes** del menú. Veremos en pantalla el índice que se crea por defecto en toda colección sobre la propiedad **_id**.
 
+![mLab-](images/mlab-index1.png)
 
-## 8 Operaciones CRUD
+Para añadir nuestro nuevo índice pulsamos sobre el enlace **Add index**, que mostrará una ventana donde poder configurarlo. Después pulsamos sobre **CREATE IN BACKGROUND** y, al momento, podremos ver el nuevo índice en la lista de índices de la colección:
 
+![mLab-](images/mlab-index2.png)
 
+![mLab-](images/mlab-index3.png)
 
 
 ## Referencias y más información
