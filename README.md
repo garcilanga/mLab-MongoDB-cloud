@@ -44,7 +44,7 @@ A partir de ese momento ya podemos hacer uso de la nueva cuenta de usuario en mL
 
 Para **conectarse a mLab con la cuenta de usuario** recién creada hay que acceder al sitio web de mLab y pulsar en el enlace **LOG IN** de la página principal (ver más arriba).
 
-Se mostrará en pantalla un formulario de login que deberá completarse con el nombre de usuario y la contraseña y pulsar el enlace **LOG IN** para enviar:
+Se mostrará en pantalla un formulario de login que deberá completarse con el nombre de usuario y la contraseña que se indicaron en el proceso de alta y pulsar sobre el enlace **LOG IN** para enviar:
 
 ```
 https://mlab.com/
