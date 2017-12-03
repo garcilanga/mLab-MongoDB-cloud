@@ -61,14 +61,14 @@ Si es la primera vez que accedemos a mLab, o no hemos creado aún ninguna base d
 
 ## 3. Crear una base de datos
 
-En este tutorial vamos a crear una implementación de MongoDB totalmente administrada u gratuita.
+En este tutorial vamos a crear una implementación de MongoDB gratuita.
 
 Para ello comenzamos por pulsar sobre **Create new** en la sección **MongoDB Deployments** de la pantalla anterior, que desplegará en pantalla sendas listas donde elegir el proveedor de servicios en la nube y el tipo de plan.
 - Los proveedores de servicio cloud a elegir son **Amazon**, **Google** y **Azure**.
 - Los tipos de  planes: 
     - **SANDBOX** (gratuito): para aprendizaje, desarrollo o prototipado. Hasta 500 Mb. de almacenamiento.
-    - **SHARED** (de pago): para pequeñas bases de datos y pequeños sistemas en producción de carga ligera. Hasta 8 Gb. de almacenamiento.
-    - **DEDICATED** (de pago): Para sistemas en producción con flujos según demanda. Escalado vertical y horizontal ilimitado.
+    - **SHARED** (de pago): para pequeñas bases de datos y sistemas en producción con poca carga. Hasta 8 Gb. de almacenamiento.
+    - **DEDICATED** (de pago): Para sistemas en producción con flujos según demanda. Incluye escalado vertical y horizontal ilimitado.
 
 En nuestro caso dejaremos **Amazon** como servicio cloud (ya viene preseleccionado), elegiremos **SANDBOX** como plan (gratuito y con 500 Mb. de almacenamiento) y pulsamos sobre **CONTINUE**:
 
@@ -78,7 +78,7 @@ Seleccionamos la Región AWS y pulsamos sobre **CONTINUE**:
 
 ![mLab-](images/mlab-region.png)
 
-Indicamos el nombre de nuestra nueva base de datos y pulsamos sobre **CONTINUE**:
+Indicamos el nombre de nuestra nueva base de datos ( _mydatabase_) y pulsamos sobre **CONTINUE**:
 
 ![mLab-](images/mlab-mydatabase.png)
 
@@ -86,7 +86,7 @@ Confirmamos la selección pulsando sobre **SUBMIT ORDER**:
 
 ![mLab-](images/mlab-confirmation.png)
 
-Con esto hemos terminado de crear nuestra nueva base de datos MongoDB en mLab, y lo podemos ver en la lista de la sección MongoDB Deployments:
+Con esto terminamos la creación de nuestra nueva base de datos MongoDB en mLab, que podemos comprobar en la lista de la sección MongoDB Deployments:
 
 ![mLab-](images/mlab-mydatabaseok.png)
 
