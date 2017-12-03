@@ -39,7 +39,7 @@ Tras pulsar sobre el enlace mencionado buscamos en nuestro cliente de email el c
 
 ![mLab-email](images/mlab-email.png)
 
-A partir de ese momento ya podemos hacer uso de la nueva cuenta de usuario en mLab.
+A partir de ese momento ya podemos hacer uso de la nueva cuenta de usuario en mLab para crear nuestras bases de datos MongoDB en cloud.
 
 ## 2. Acceder a la cuenta de mLab
 
