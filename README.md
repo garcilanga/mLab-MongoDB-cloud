@@ -35,7 +35,7 @@ Después de rellenar el formulario de alta y pulsar sobre **CREATE ACCOUNT**, se
 
 ![mLab-verification](images/mlab-verification.png)
 
-Tras pulsar sobre el enlace mencionado buscamos en nuestro cliente de email el correo de verificación enviado por mLab, y pulsamos sobre el enlace incluido en el mismo para confirmar la creación de la nueva cuenta:
+Tras pulsar sobre el enlace mencionado buscamos en nuestro cliente de email el correo de verificación enviado por mLab, y pulsamos sobre el enlace incluido en el mismo para **confirmar** la creación de la **nueva cuenta**:
 
 ![mLab-email](images/mlab-email.png)
 
@@ -52,9 +52,9 @@ https://mlab.com/
 ```
 ![mLab-init](images/mlab-loginform.png)
 
-Si es la primera vez que accedemos, o no hemos creado aún ninguna base de datos, se nos mostrará una pantalla donde elegir entre las opciones **MongoDB Deployments** y **Private Environments**:
+Si es la primera vez que accedemos a mLab, o no hemos creado aún ninguna base de datos, se mostrará una pantalla donde elegir entre las opciones **MongoDB Deployments** y **Private Environments**:
 
-- **MongoDB Deployments** permite crear una implementación de MongoDB totalmente administrada en AWS, Azure o Google.
+- **MongoDB Deployments** permite crear una implementación de MongoDB totalmente administrada en AWS (Amazon), Azure (Microsoft) o Google.
 
 - **Private Environments** permite crear una VPC (red virtual privada en la nube), una red privada, dedicada, definida por software, en la que se puede aprovisionar múltiples implementaciones de MongoDB alojadas en mLab. Este entorno privado permite limitar a redes privadas la comunicación entre aplicaciones y bases de datos. Esta opción solo está disponible para planes dedicados en AWS.
 
@@ -69,7 +69,7 @@ Para ello comenzamos por pulsar sobre **Create new** en la sección **MongoDB De
 - Los proveedores de servicio cloud a elegir son **Amazon**, **Google** y **Azure**.
 - Los tipos de  planes: 
     - **SANDBOX** (gratuito): para aprendizaje, desarrollo o prototipado. Hasta 500 Mb. de almacenamiento.
-    - **SHARED** (de pago): para pequemas bases de datos y pequeños sistemas en produccion de carga ligera. Hasta 8 Gb. de almacenamiento.
+    - **SHARED** (de pago): para pequeñas bases de datos y pequeños sistemas en producción de carga ligera. Hasta 8 Gb. de almacenamiento.
     - **DEDICATED** (de pago): Para sistemas en producción con flujos según demanda. Escalado vertical y horizontal ilimitado.
 
 En nuestro caso dejaremos **Amazon** como servicio cloud (ya viene preseleccionado), elegiremos **SANDBOX** como plan (gratuito y con 500 Mb. de almacenamiento) y pulsamos sobre **CONTINUE**:
