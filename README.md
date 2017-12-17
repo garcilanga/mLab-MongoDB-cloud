@@ -129,7 +129,7 @@ mongo ds129386.mlab.com:29386/mydatabase -u myusr -p mypwd
 
 ![mLab-](images/mlab-mongodbshell.png)
 
-Podemos además interactuar con la base de datos. Por ejemplo, podemos crear una colección con un documento, consultarla y luego eliminarla:
+Una vez conectados al intérprete de comandos del cliente de MongoDB podemos interactuar con la base de datos. Como ejemplo, crearemos una colección con un documento, la consultaremos y la eliminaremos:
 
 ```
 # Crear una colección llamada mycollection e insertar un documento
