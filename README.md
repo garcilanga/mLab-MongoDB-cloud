@@ -247,4 +247,4 @@ Para añadir nuestro nuevo índice pulsamos sobre el enlace **Add index**, que m
 - [mLab](https://mlab.com/)
 - [Tutorial de Creación de una Base de Datos MongoDB con mLab](http://gidahatari.com/ih-es/tutorial-de-creacion-de-una-base-de-datos-mongodb-con-mlab)
 - [mLab (wikipedia)](https://en.wikipedia.org/wiki/MLab)
-
+- [Instalación de MongoDB](https://github.com/garcilanga/MongoDB-Instalacion)
