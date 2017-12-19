@@ -12,7 +12,7 @@ En este tutorial vamos a ver cómo:
 - 2 Acceder a la cuenta de mLab
 - 3 Crear una base de datos
 - 4 Crear un usuario
-- 5 Crear una colección vacía
+- 5 Crear una colección
 - 6 Importar/exportar ficheros de datos
 - 7 Crear índices
 
