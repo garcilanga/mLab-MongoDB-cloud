@@ -12,9 +12,10 @@ En este tutorial vamos a ver cómo:
 - 2 Acceder a la cuenta de mLab
 - 3 Crear una base de datos
 - 4 Crear un usuario
-- 5 Crear una colección
-- 6 Importar/exportar ficheros de datos
-- 7 Crear índices
+- 5 Crear una colección por línea de comandos
+- 6 Crear una colección vía web desde el panel de control
+- 7 Importar/exportar ficheros de datos
+- 8 Crear índices
 
 ## 1. Crear una nueva cuenta de usuario en mLab
 
@@ -121,6 +122,8 @@ El usuario creado aparecerá en la lista de usuarios de la base de datos:
 
 ![mLab-](images/mlab-users.png)
 
+## 5 Crear una colección por línea de comandos
+
 Una vez creado el usuario, podemos acceder desde un terminal de nuestro odenador, si disponemos de un cliente de MongoDB y conexión a Internet, ejecutando el comando indicado en las instrucciones de la pantalla anterior, reemplazando _&lt;dbuser&gt;_ y _&lt;dbpassword&gt;_ por los valores correspondientes:
 
 ```
@@ -150,7 +153,7 @@ exit
 
 ![mLab-](images/mlab-mongodbshell2.png)
 
-## 5. Crear una colección vacía
+## 6 Crear una colección vía web desde el panel de control
 
 Para crear una colección desde el menú del panel de gestión de mLab seleccionamos **Collections** y a continuación hacemos click sobre **Add collection**. Se abrirá en pantalla un formulario donde introduciremos el nombre de la coleccion (ej.: _mycollection_) y finalizaremos pulsando **CREATE**.
 
@@ -160,7 +163,7 @@ La colección creada, que carece aún de estructura y de datos, aparecerá en la
 
 ![mLab-](images/mlab-collections.png)
 
-## 6. Importar/exportar ficheros de datos
+## 7. Importar/exportar ficheros de datos
 
 En la opción **Tools** del menú del panel de gestión principal de mLab se muestran instrucciones que permiten **importar** ficheros de datos en colecciones MongoDB (por consola, mediante un cliente mongo), y **exportar** colecciones de datos MongoDB a ficheros. El formato de estos ficheros puede ser de tipo **JSON**, **CSV** y **Binary** (_dumps_).
 
@@ -224,7 +227,7 @@ También podemos acceder a la colección de restaurantes abriendo un terminal en
 
 ![mLab-](images/mlab-restaurants3.png)
 
-## 7 Crear índices
+## 8 Crear índices
 
 Para ilustrar la creación de índices sobre colecciones de bases de datos MongoDB creadas en mLab crearemos un índice en la colección **restaurants** que cargamos anteriormente, sobre la propiedad **cuisine** presente en los documentos de dicha colección.
 
